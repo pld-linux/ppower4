@@ -6,8 +6,11 @@ Release:	1
 Group:		Applications/Publishing
 License:	GPL
 Source0:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4.jar
+# Source0-md5:	8446628c1cef06ffefbbc7173fab24a0
 Source1:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4sty.zip
+# Source1-md5:	593e5d058fe9e3c77548dc7c5b0a37f6
 Source2:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/report.pdf
+# Source2-md5:	ab378abdfaf08051e666916a91709aad
 Source3:	%{name}
 URL:		http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 BuildRequires:	unzip
