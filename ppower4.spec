@@ -35,7 +35,7 @@ cp %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{name}
 cd $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{name}
 unzip %{SOURCE1}
 install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/%{name}/
-install %{SOURCE2} $RPM_BUILD_ROOT%{_docdir}/%{name}/ 
+install %{SOURCE2} $RPM_BUILD_ROOT%{_docdir}/%{name}/
 install %{SOURCE3} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
