@@ -13,7 +13,7 @@ Source2:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/report.pd
 Source3:	%{name}
 URL:		http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 BuildRequires:	unzip
-Requires:	java
+Requires:	jre
 Requires:	tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
