@@ -4,10 +4,6 @@ Name:		ppower4
 Version:	0.8.4
 Release:	1
 Group:		Applications/Publishing
-Group(de):	Applikationen/Publizieren
-Group(es):	Aplicaciones/Editoración
-Group(pl):	Aplikacje/Publikowanie
-Group(pt_BR):	Aplicações/Editoração
 License:	GPL
 Source0:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4.jar
 Source1:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4sty.zip
