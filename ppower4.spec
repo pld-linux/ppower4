@@ -2,22 +2,25 @@ Summary:	java program to preparing presentations using pdf.
 Name:		ppower4	
 Version:	0.8.4
 Release:	1
-Group:		Applications/Publishing/	
-Copyright:	GPL
-Vendor:         PLD
+Group:		Applications/Publishing
+Group(de):	Applikationen/Publizieren
+Group(pl):	Aplikacje/Publikowanie
+License:	GPL
+Vendor:		PLD
 Source0:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4.jar
 Source1:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/pp4sty.zip
 Source2:	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/report.pdf
-Source3:	ppower4
+Source3:	%{name}
 URL:		http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 BuildPrereq:	unzip
 Requires:	java	
-Prereq:         tetex
-Prereq:         /usr/bin/mktexlsr
+Prereq:		tetex
+Prereq:		/usr/bin/mktexlsr
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ppower4 is an java program for prepering profesional presentations using pdflatex.
+ppower4 is an java program for prepering profesional presentations
+using pdflatex.
 
 %prep
 %build
@@ -50,7 +53,3 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 
 %doc %{_docdir}/%{name}/*
-
-
-
-%changelog
