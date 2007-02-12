@@ -1,5 +1,5 @@
 Summary:	Java program to preparing presentations using PDF
-Summary(pl):	Program w Javie do przygotowywania prezentacji z uøyciem PDF
+Summary(pl.UTF-8):   Program w Javie do przygotowywania prezentacji z u≈ºyciem PDF
 Name:		ppower4
 Version:	0.8.4
 Release:	1
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ppower4 is an Java program for prepering profesional presentations
 using pdflatex.
 
-%description -l pl
+%description -l pl.UTF-8
 ppower4 jest programem napisanym w Javie do przygotowywania
-profesjonalnych prezentacji z uøyciem pdflatex.
+profesjonalnych prezentacji z u≈ºyciem pdflatex.
 
 %prep
 
