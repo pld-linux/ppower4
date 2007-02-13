@@ -1,5 +1,5 @@
 Summary:	Java program to preparing presentations using PDF
-Summary(pl.UTF-8):   Program w Javie do przygotowywania prezentacji z użyciem PDF
+Summary(pl.UTF-8):	Program w Javie do przygotowywania prezentacji z użyciem PDF
 Name:		ppower4
 Version:	0.8.4
 Release:	1
